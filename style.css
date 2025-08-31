@@ -1546,7 +1546,7 @@
     height: 130px;
     bottom: 2px;
     right: 2px;
-    border-top-right-radius: 50%;
+    border-top-right-radius: 60%;
   }
   .cta-img-bg img {
     border-top-left-radius: 10px;
