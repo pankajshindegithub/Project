@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smooth Sidebar Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-container wrapper">
+      <div class="logo">Ascone</div>
+
+      <div class="nav-links">
+        <a href="#">Features</a>
+        <a href="#">Accounts</a>
+        <a href="#">Company</a>
+        <a href="#">Insight</a>
+      </div>
+
+      <div class="btn">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="btn-sign"
+          ><i class="fa-solid fa-right-to-bracket"></i> Sign Up</a
+        >
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <a href="#">Features</a>
+      <a href="#">Accounts</a>
+      <a href="#">Company</a>
+      <a href="#">Insight</a>
+      <a href="#">Login</a>
+      <a href="#" class="btn-sign"
+        ><i class="fa-solid fa-right-to-bracket"></i> Sign Up</a
+      >
+    </div>
+
+    <!-- Hero Section -->
+
+    <!-- ...existing code... -->
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="wrapper">
+        <div class="hero-content">
+          <div class="hero-left">
+            <span class="hero-badge">TRY IT NOW!</span>
+            <h1>
+              Change the way <br />
+              you use your <br />
+              <em>money</em>
+            </h1>
+            <p class="hero-desc">
+              From your everyday spending, to planning for your future with
+              savings and investments, Ascone helps you get more from your
+              money.
+            </p>
+            <div class="hero-cta">
+              <a href="#" class="hero-btn">Get Started Now</a>
+              <div class="hero-rating"></div>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-grid">
+              <div class="hero-grid-item hero-img">
+                <img
+                  src="images/Adobe Express - file (48).png"
+                  alt="App in hand"
+                />
+              </div>
+              <div class="hero-grid-item hero-currencies">
+                <div class="hero-grid-title">56+</div>
+                <div class="hero-grid-label">Currencies</div>
+                <div class="hero-grid-icon"><i class="fa fa-globe"></i></div>
+              </div>
+              <div class="hero-grid-item hero-users">
+                <div class="hero-grid-icon"><i class="fa fa-users"></i></div>
+                <div class="hero-grid-label">Users Active</div>
+                <div class="hero-grid-avatars">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="User1"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    alt="User2"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/men/54.jpg"
+                    alt="User3"
+                  />
+                </div>
+              </div>
+              <div class="hero-grid-item hero-saving">
+                <div class="hero-grid-title">$196,000</div>
+                <div class="hero-grid-label">Saving</div>
+                <div class="hero-grid-chart">
+                  <svg width="100" height="40">
+                    <polyline
+                      points="0,35 20,30 40,25 60,20 80,10 100,5"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand bar -->
+    <section class="brand-bar">
+      <div class="brand-bar-inner">
+        <img
+          src="images/loom-logo_brandlogos.net_vwxqc.png"
+          alt="loom"
+          class="brand-logo"
+        />
+        <img src="images/hubspot.png" alt="HubSpot" class="brand-logo" />
+        <img src="images/OpenAI_Logo.svg.png" alt="OpenAI" class="brand-logo" />
+        <img
+          src="images/raycast-logo-vector-removebg-preview.png"
+          alt="Raycast"
+          class="brand-logo"
+        />
+        <img src="images/Zenefits_logo.png" alt="Zenefits" class="brand-logo" />
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="wrapper">
+        <div class="feature-header">
+          <span class="feature-badge">ABOUT US</span>
+          <h2>One app for all your<br />money things</h2>
+          <p>
+            Remove all the friction that stands in the way of your money goals.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card feature-card-left">
+            <h3>Grow savings<br />faster</h3>
+            <div class="feature-savings-amount">$12,000</div>
+            <div class="feature-savings-chart">
+              <!-- Simple SVG bar chart with arrow -->
+              <svg width="100%" height="80" viewBox="0 0 180 80">
+                <rect
+                  x="20"
+                  y="60"
+                  width="15"
+                  height="20"
+                  fill="#fff"
+                  opacity="0.2"
+                />
+                <rect
+                  x="45"
+                  y="50"
+                  width="15"
+                  height="30"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <rect
+                  x="70"
+                  y="40"
+                  width="15"
+                  height="40"
+                  fill="#fff"
+                  opacity="0.4"
+                />
+                <rect
+                  x="95"
+                  y="30"
+                  width="15"
+                  height="50"
+                  fill="#fff"
+                  opacity="0.5"
+                />
+                <rect
+                  x="120"
+                  y="20"
+                  width="15"
+                  height="60"
+                  fill="#fff"
+                  opacity="0.7"
+                />
+                <polygon points="135,60 150,40 165,60" fill="#fff" />
+                <rect x="147" y="20" width="6" height="40" fill="#fff" />
+              </svg>
+            </div>
+          </div>
+          <div class="feature-card feature-card-right">
+            <h3>Send across the global</h3>
+            <div class="feature-global-content">
+              <div class="feature-global-item feature-global-money">
+                <img src="images/money.png" alt="Money" />
+                <div class="feature-global-amount">$25,000</div>
+                <div class="feature-global-note">Sent bro!</div>
+                <div class="feature-global-avatars">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="User1"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    alt="User2"
+                  />
+                </div>
+              </div>
+              <div class="feature-global-item feature-global-thank">
+                <div class="feature-global-amount">$40,000</div>
+                <div class="feature-global-note">Thanks Chris!</div>
+                <img
+                  src="https://randomuser.me/api/portraits/men/54.jpg"
+                  alt="User3"
+                  class="feature-global-avatar"
+                />
+              </div>
+              <div class="feature-global-item feature-global-globe">
+                <svg width="90" height="90" viewBox="0 0 90 90">
+                  <circle
+                    cx="45"
+                    cy="45"
+                    r="40"
+                    stroke="#1f3e39"
+                    stroke-width="1.5"
+                    fill="none"
+                  />
+                  <ellipse
+                    cx="45"
+                    cy="45"
+                    rx="40"
+                    ry="15"
+                    stroke="#1f3e39"
+                    stroke-width="1.5"
+                    fill="none"
+                  />
+                  <ellipse
+                    cx="45"
+                    cy="45"
+                    rx="15"
+                    ry="40"
+                    stroke="#1f3e39"
+                    stroke-width="1.5"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+              <div class="feature-global-item feature-global-flags">
+                <img
+                  src="images/india-country-round-flag-free-png.webp"
+                  alt="Flags"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value -->
+    <section class="values-section">
+      <div class="wrapper">
+        <div class="values-row">
+          <div class="values-col-left">
+            <span class="values-badge">VALUES</span>
+            <h2 class="values-title">Make your<br />spend, Well-spent</h2>
+          </div>
+          <div class="values-col-right">
+            <p class="values-desc">
+              Manages a diversified group of specialized private credit brands
+              with efficient tech-enabled processes.
+            </p>
+          </div>
+        </div>
+        <div class="values-cards">
+          <div class="values-card">
+            <div class="values-icon">
+              <svg width="32" height="32" fill="none">
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="12"
+                  stroke="#1f3e39"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Transparency</h3>
+            <p>
+              A departure from the industry norm of ambiguity. Monitor, as a
+              public and finest company.
+            </p>
+            <a href="#" class="values-arrow"><span>&#8594;</span></a>
+          </div>
+          <div class="values-card">
+            <div class="values-icon">
+              <svg width="32" height="32" fill="none">
+                <ellipse
+                  cx="16"
+                  cy="16"
+                  rx="12"
+                  ry="8"
+                  stroke="#1f3e39"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Creative expansion</h3>
+            <p>
+              Ascone proprietary fintech platform helps our subsidiaries locate
+              and manage investments.
+            </p>
+            <a href="#" class="values-arrow"><span>&#8594;</span></a>
+          </div>
+          <div class="values-card values-card-highlight">
+            <div class="values-icon">
+              <svg width="32" height="32" fill="none">
+                <path d="M16 6v20M6 16h20" stroke="#1f3e39" stroke-width="2" />
+              </svg>
+            </div>
+            <h3>Private Credit Investments</h3>
+            <p>
+              We provide access to unique private credit investments, a rare but
+              valuable part of a sound investment portfolio.
+            </p>
+            <a href="#" class="values-arrow values-arrow-highlight"
+              ><span>&#8594;</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="numbers-section">
+      <div class="numbers-bg">
+        <div class="wrapper numbers-content">
+          <div class="numbers-stats">
+            <div class="numbers-stat">
+              <div class="numbers-value">$14B</div>
+              <div class="numbers-label">Funds and syndicates</div>
+            </div>
+            <div class="numbers-stat">
+              <div class="numbers-value">23k+</div>
+              <div class="numbers-label">Raised by active startups</div>
+            </div>
+          </div>
+          <div class="numbers-info">
+            <span class="numbers-badge">NUMBERS</span>
+            <h2>Market and build<br />the solutions</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cta-Section -->
+
+    <section class="cta-section">
+      <div class="wrapper">
+        <div class="cta-box">
+          <div class="cta-content">
+            <h2>Change the way you<br />use your <em>money</em></h2>
+            <p>
+              Join over million people who choose Ascone<br />for fast and
+              secure future banking.
+            </p>
+            <a href="#" class="cta-btn">Get Started Now</a>
+          </div>
+          <div class="cta-image-area">
+            <div class="cta-stars">
+              <svg width="60" height="60" viewBox="0 0 60 60">
+                <polygon
+                  points="30,0 36,24 60,30 36,36 30,60 24,36 0,30 24,24"
+                  fill="#fff"
+                />
+              </svg>
+              <svg width="60" height="60" viewBox="0 0 60 60">
+                <polygon
+                  points="30,0 36,24 60,30 36,36 30,60 24,36 0,30 24,24"
+                  fill="#fff"
+                />
+              </svg>
+            </div>
+            <div class="cta-img-bg">
+              <img src="images/indian money.png" alt="Money" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fotter -->
+
+    <footer class="footer-section">
+      <div class="wrapper footer-main">
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Account</h4>
+            <ul>
+              <li><a href="#">Saving</a></li>
+              <li><a href="#">Join Accounts</a></li>
+              <li><a href="#">Crypto</a></li>
+              <li><a href="#">Freelance</a></li>
+              <li><a href="#">Commodities</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Customer Help</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Finance</h4>
+            <ul>
+              <li><a href="#">Cards</a></li>
+              <li><a href="#">Linked Accounts</a></li>
+              <li><a href="#">Payment</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-brand">
+          <div class="footer-logo">Ascone</div>
+          <address>
+            181 Bay Street<br />
+            Bay Wellington Tower, Suite 292<br />
+            Toronto, Ontario M5J 2T3
+          </address>
+          <div class="footer-lang">
+            <img
+              src="https://flagcdn.com/gb.svg"
+              alt="UK"
+              width="20"
+              style="vertical-align: middle; margin-right: 6px"
+            />
+            English (UK)
+          </div>
+        </div>
+      </div>
+      <div class="wrapper footer-bottom">
+        <div class="footer-copyright">© Ascone Finance Ltd 2023.</div>
+        <div class="footer-policies">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Disclosure</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
