@@ -1405,7 +1405,7 @@
   .hero-img img {
     max-width: 200px;
     max-height: 200px;
-    margin-left: 215px;
+    margin-left: 125px;
   }
 
   /* Brand bar */
@@ -1434,16 +1434,16 @@
     height: auto;
   }
   .feature-global-content {
-    height: 60px;
+    height: 220px;
   }
   .feature-global-money,
   .feature-global-thank {
-    width: 60px;
+    width: 90px;
     padding: 4px 4px;
     font-size: 0.7rem;
   }
   .feature-global-flags img {
-    width: 20px;
+    width: 30px;
   }
 
   /* Values Section */
@@ -1454,6 +1454,171 @@
   .values-title {
     font-size: 1rem;
   }
+  .values-cards {
+    gap: 6px;
+    margin-top: 10px;
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .values-card,
+  .values-card-highlight {
+    min-width: 0;
+    max-width: 100%;
+    min-height: 120px;
+    border-radius: 8px !important;
+    padding: 8px 4px 18px 4px;
+  }
+  .values-card h3 {
+    font-size: 1.5rem;
+  }
+  .values-desc {
+    font-size: 0.75rem;
+  }
+  .values-card p {
+    font-size: 0.85rem;
+  }
+  .values-arrow,
+  .values-arrow-highlight {
+    width: 24px;
+    height: 24px;
+    font-size: 1rem;
+    bottom: 8px;
+    right: 8px;
+  }
+
+  /* Numbers Section */
+  .numbers-bg {
+    padding: 12px 0;
+    
+  }
+  .numbers-value {
+    font-size: 1.1rem;
+  }
+  .numbers-info h2 {
+    font-size: 1rem;
+  }
+  .numbers-stats {
+    gap: 8px;
+  }
+
+  /* CTA Section */
+  .cta-section {
+    margin: 12px 0px;
+  }
+  .cta-content {
+    padding: 8px 2px 6px 2px;
+    margin-left: 10px;
+  }
+  .cta-content h2 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  .cta-content p {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+  .cta-btn {
+    min-width: 80px;
+    padding: 10px 12px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    margin-top: 6px;
+    
+  }
+  .cta-image-area {
+    height: 100px;
+    margin-top: 6px;
+    margin-right: 5px;
+  }
+  .cta-stars {
+    top: -140px;
+    left: 300px;
+    width: 70px;
+    height: 12px;
+    gap: 2px;
+  }
+  .cta-stars svg {
+    width: 25px;
+    height: 25px;
+  }
+  .cta-img-bg {
+    width: 130px;
+    height: 130px;
+    bottom: 2px;
+    right: 2px;
+    border-top-right-radius: 20px;
+  }
+  .cta-img-bg img {
+    border-top-left-radius: 10px;
+  }
+
+  /* Footer */
+  .footer-section {
+    padding-top: 8px;
+    font-size: 0.85rem;
+  }
+  .footer-main {
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 6px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 100%;
+  }
+  .footer-col {
+    min-width: 0;
+  }
+  .footer-links,
+  .footer-brand {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .footer-col h4 {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+  .footer-col ul li {
+    margin-bottom: 3px;
+  }
+  .footer-logo {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    text-align: left;
+  }
+  .footer-brand address {
+    font-size: 0.7rem;
+    margin-bottom: 2px;
+    text-align: left;
+  }
+  .footer-lang {
+    font-size: 0.7rem;
+    margin-top: 2px;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 4px 0;
+    font-size: 0.8rem;
+  }
+  .footer-policies {
+    gap: 4px;
+  }
+  .footer-policies a {
+    font-size: 0.85rem;
+    text-align: left;
+  }
+}
   .values-cards {
     gap: 6px;
     margin-top: 10px;
