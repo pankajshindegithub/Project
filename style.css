@@ -1546,7 +1546,7 @@
     height: 130px;
     bottom: 2px;
     right: 2px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 30%;
   }
   .cta-img-bg img {
     border-top-left-radius: 10px;
@@ -1612,10 +1612,10 @@
     font-size: 0.8rem;
   }
   .footer-policies {
-    gap: 4px;
+    gap: 10px;
   }
   .footer-policies a {
-    font-size: 0.85rem;
+    font-size: 0.65rem;
     text-align: left;
   }
 }
